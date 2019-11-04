@@ -7,9 +7,8 @@ A Kotlin android app with Clean Architecture and MVVM Architecture pattern.
 3. RxJava2
 4. Retrofit - For making API Request 
 5. DroidNet - For Internet Checking
-6. ButterKnife - For View Binding
-7. Google Maps
-8. Nhaarman Mockito for Testing
+6. Google Maps
+7. Nhaarman Mockito for Testing
 
 # Use cases
 After opening the Application, app will make a API call for fetching the PoiList
