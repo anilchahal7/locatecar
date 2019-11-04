@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/fragment_bg_with_radius">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="56dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="12dp"
+            android:layout_marginStart="20dp"
+            android:gravity="center_vertical"
+            android:textSize="24sp"
+            tools:ignore="RelativeOverlap"
+            android:text="@string/fetch_taxi_on_map_move"
+            android:textColor="@color/black_80" />
+
+        <Switch
+            android:id="@+id/simple_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:hapticFeedbackEnabled="true"
+            android:layout_marginEnd="20dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/headerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:elevation="1dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/header_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="12dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="28dp"
+            android:gravity="center_vertical"
+            android:text="@string/show"
+            android:textColor="@color/black_80"
+            android:textSize="24sp"
+            tools:ignore="RelativeOverlap" />
+
+        <TextView
+            android:id="@+id/close_text"
+            android:layout_width="84dp"
+            android:layout_height="36dp"
+            android:text="@string/close"
+            android:textColor="@color/black_56"
+            android:letterSpacing="0.04"
+            android:textSize="14sp"
+            android:paddingTop="10dp"
+            android:paddingStart="24dp"
+            android:paddingEnd="12dp"
+            android:paddingBottom="10dp"
+            android:textAllCaps="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="6dp"
+            android:layout_marginEnd="8dp"
+            android:layout_alignParentEnd="true"
+            android:gravity="center_vertical" />
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/sort_by_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp" />
+
+</LinearLayout>

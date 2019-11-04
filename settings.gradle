@@ -1,0 +1,2 @@
+include ':app', ':domain', ':common', ':data', ':remote', ':presentation'
+rootProject.name='FreeNowTaxi'

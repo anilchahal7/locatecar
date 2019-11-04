@@ -1,0 +1,28 @@
+apply plugin: 'kotlin'
+apply plugin: 'kotlin-kapt'
+
+dependencies {
+    def remoteDependencies = rootProject.ext.remoteDependencies
+
+    implementation project(":data")
+    implementation project(":domain")
+
+    implementation remoteDependencies.javaxAnnotation
+    implementation remoteDependencies.javaxInject
+    implementation remoteDependencies.okHttp
+    implementation remoteDependencies.retrofit
+    implementation remoteDependencies.retrofitMock
+    implementation remoteDependencies.gson
+    implementation remoteDependencies.rxJavaAdapter
+    implementation remoteDependencies.jwRxJavaAdapter
+    implementation remoteDependencies.okHttpLogging
+    implementation remoteDependencies.kotlin
+
+    // Testing Libraries ...
+    testImplementation remoteDependencies.jUnit
+    testImplementation remoteDependencies.assertJ
+    testImplementation remoteDependencies.mockitoCore
+    testImplementation remoteDependencies.mockitoInline
+}
+sourceCompatibility = rootProject.ext.sourceCompatibility
+targetCompatibility = rootProject.ext.targetCompatibility

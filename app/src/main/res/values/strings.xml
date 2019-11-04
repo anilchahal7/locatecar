@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">FreeNowTaxi</string>
+    <string name="tab_one">Taxi List</string>
+    <string name="tab_two">Taxi Map</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="close">Close</string>
+    <string name="taxi_id">Taxi Id</string>
+    <string name="fleet_type">Fleet Type</string>
+    <string name="coordinates">Coordinates</string>
+    <string name="heading">Heading</string>
+    <string name="selected">Selected</string>
+    <string name="show">Show</string>
+    <string name="all">All</string>
+    <string name="taxi">TAXI</string>
+    <string name="drop_down">Drop Down</string>
+    <string name="bottom_sheet">Bottom Sheet</string>
+    <string name="lat_text">Lat %1$s</string>
+    <string name="long_text">Long %1$s</string>
+    <string name="finding_near_taxi">Finding Near By Taxi …</string>
+    <string name="fetch_taxi_on_map_move">Fetch Taxi on Map Move</string>
+    <string name="internet_is_gone">Internet is Gone!</string>
+    <string name="loading_taxi_list">Loading Taxi List!</string>
+    <string name="error_in_request">Error in Request, Please Check Your Connection!</string>
+    <string name="check_your_internet">Check Your Internet Connection!</string>
+
+</resources>

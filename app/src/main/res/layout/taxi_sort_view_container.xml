@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sort_view_container"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:background="@color/white"
+    android:orientation="horizontal"
+    android:baselineAligned="false"
+    android:layout_gravity="bottom"
+    android:gravity="bottom">
+
+        <TextView
+            android:id="@+id/sort_text"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/show"
+            android:textAllCaps="true"
+            android:textColor="@color/black_80"
+            android:gravity="center"
+            android:letterSpacing="0.04"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/sort_type_text"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textColor="@color/black_56"
+            android:gravity="center"
+            android:text="@string/all"
+            android:letterSpacing="0.02"
+            android:layout_gravity="center"
+            android:layout_marginStart="8dp"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/sort_type_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_dropdown_40"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:tint="@color/black_36"
+            android:contentDescription="@string/drop_down" />
+
+        <ProgressBar
+            android:id="@+id/fetch_taxi_progress_bar"
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:layout_weight="1"
+            android:visibility="gone"
+            android:layout_gravity="center"
+            android:gravity="center" />
+
+</LinearLayout>
